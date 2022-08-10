@@ -43,3 +43,19 @@ Console.Clear();
 
 // Задача 8: Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
 
+Console.Write ("input n: ");
+int n = Convert.ToInt32(Console.ReadLine());
+int m=1;
+while (m<=n);
+{
+    if(m % 2==0)
+    {
+        Console.Write($"{m}");
+    }
+    m++;
+}
+Console.WriteLine();
+
+
+
+
